@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #004d40;
+
+    width: 100%;
+
+}
+.nav-class{
+    margin-top: 10px;
+    margin-right: 100px;
+    height: 30px;
+
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: #00796b;
+}
+.container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+    margin-left: 50px;
+}
+.section img {
+    width: 30%;
+    height: 600px;
+
+    margin: 20px;
+    border-radius: 10px;
+}
+.details {
+    width: 70%;
+    text-align: left;
+    padding: 20px;
+}
+.details h2 {
+    margin-top: 0;
+}
+.details p {
+    margin: 5px 0;
+}
+.bio-section {
+    flex-direction: row;
+}
+.education-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.first img{
+    width: 300px;
+    height: 300px;
+    padding-top: 40px;
+}
+.second img{
+    width: 300px;
+    height: 300px;
+    padding-left: 100px;
+}
+.third img{
+    width: 300px;
+    height: 300px;
+}
+.hobby-section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.hobby-section .photos img{
+    display: block;
+    width: 300px;
+    height: 320px;
+
+}
+.hobby-section .photos img:nth-child(2){
+    padding-left: 200px;
+}
+.hobby-section div:nth-child(2){
+    width: 30%;
+}
+.travel-section {
+    flex-direction: row-reverse;
+
+}
+.travel-section img{
+    width: 500px;
+    height: 600px;
+}
+footer{
+    background-color: #004D40FF;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: -20px;
+}
+footer p{
+    padding-top: 10px;
+}
+
